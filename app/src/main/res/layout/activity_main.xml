@@ -67,6 +67,7 @@
         android:layout_height="wrap_content"
         android:text="Multiplicar"
         android:textStyle="bold"
+        android:backgroundTint="@color/green"
         />
     <Button
         android:id="@+id/btDividir"
@@ -74,6 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Dividir"
         android:textStyle="bold"
+        android:backgroundTint="@color/yellow"
         />
 
 

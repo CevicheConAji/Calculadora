@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         btRestar.setOnClickListener(){
             resta()
         }
-        btDividir.setOnClickListener(){
+        btMultiplicar.setOnClickListener(){
             multiplicar()
         }
         btDividir.setOnClickListener(){
