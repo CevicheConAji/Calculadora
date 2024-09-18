@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        initComponets()
+        initComponents()
         initListener()
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-    private fun initComponets(){
+    private fun initComponents(){
         tvResultado01 = findViewById (R.id.tvResultado)
         etNumero01 = findViewById(R.id.etNumero01)
         etNumero02 = findViewById(R.id.etNumero02)
