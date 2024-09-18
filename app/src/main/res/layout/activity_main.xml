@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/gris">
 
     <TextView
         android:layout_width="match_parent"
@@ -46,7 +47,7 @@
         android:textStyle="bold"
         />
     <Button
-        android:id="@+id/tvSuma"
+        android:id="@+id/btSuma"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Suma"
@@ -58,9 +59,10 @@
         android:layout_height="wrap_content"
         android:text="Resta"
         android:textStyle="bold"
+        android:backgroundTint="@color/blue"
         />
     <Button
-        android:id="@+id/Multiplicar"
+        android:id="@+id/btMultiplicar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Multiplicar"
