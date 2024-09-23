@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
 
         tvResultado01.text = suma.toString()
     }
+
     private fun resta(){
         //Importante el .text
         numero01 = etNumero01.text.toString().toDouble()
